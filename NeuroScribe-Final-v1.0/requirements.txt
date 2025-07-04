@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+PyMuPDF
+openai
+Pillow
+pytesseract
+requests
+pytest
+bandit
+safety

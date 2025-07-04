@@ -1,0 +1,77 @@
+# NeuroScribe PDF Copilot v1.1 - Launch Instructions
+
+## 🚀 Quick Start Options
+
+### Option 1: One-Click Launch
+1. Double-click `launcher.py` to start the app
+2. App will open automatically in your browser at http://localhost:8505
+
+### Option 2: Command Line
+```bash
+python launcher.py
+```
+
+### Option 3: Direct Streamlit
+```bash
+streamlit run app.py --server.port 8505
+```
+
+## 🔧 Setup (First Time Only)
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Configure API Keys (Optional)
+1. Copy `env.template` to `.env`
+2. Add your OpenAI API key:
+   ```
+   OPENAI_API_KEY=sk-your_key_here
+   ```
+
+## 📄 Using the App
+
+1. **Upload PDF**: Drag and drop any PDF file
+2. **AI Commands**: Try these examples:
+   - "Summarize this page"
+   - "Rewrite formally"
+   - "Make it casual"
+   - "Erase: [text to remove]"
+   - "Translate to Spanish"
+3. **Download**: Get your edited PDF
+
+## 🔧 Troubleshooting
+
+### Port Already in Use
+- The app automatically finds available ports
+- Check the terminal output for the correct URL
+
+### Missing Dependencies
+- Run: `python verify_installations.py`
+- Install missing packages: `pip install -r requirements.txt`
+
+### API Errors
+- Check your OpenAI API key in `.env`
+- Ensure you have credits in your OpenAI account
+
+## 🎯 Features
+
+✅ AI-powered PDF editing with GPT-4
+✅ OCR support for scanned documents  
+✅ PDF unlocking and decryption
+✅ Multi-page processing
+✅ Real-time AI responses
+✅ Beautiful web interface
+✅ Cross-platform support
+
+## 📞 Support
+
+- Documentation: README.md
+- Installation Guide: INSTALLATION_GUIDE.md
+- Deployment Guide: DEPLOYMENT_SUMMARY.md
+
+---
+
+**Made with ❤️ by the NeuroScribe Team**
+*Transform your PDFs with the power of AI! 🧠✨*
